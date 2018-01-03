@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/stuNameTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名："
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/stuNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="保密"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stuidTag"
+        android:text="学号："
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/stuNameTag"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/stuidText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1701111111"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/stuNameText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/genderTag"
+        android:text="性别："
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/stuidTag"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/genderText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="男女"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/stuidText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/statusTag"
+        android:text="状态："
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/genderTag"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已办理"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:layout_below="@+id/genderText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buildingTag"
+        android:text="楼号："
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/statusTag"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/buildingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/statusText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/roomTag"
+        android:text="宿舍号："
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/buildingTag"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/roomText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5425"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:layout_below="@+id/buildingText"/>
+
+
+
+</RelativeLayout>

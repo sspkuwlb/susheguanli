@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:id="@+id/singleModeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单人办理"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/doubleModeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="双人办理"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tripleModeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="三人办理"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/quadrupleModeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="四人办理"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

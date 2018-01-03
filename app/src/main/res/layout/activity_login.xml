@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="com.example.wentianlin.idorm.LoginActivity">-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Hello World!"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wentianlin.idorm.LoginActivity" >
+
+    <!--<TextView-->
+        <!--android:id="@+id/textView1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="使用学号和密码登录" />-->
+
+    <TextView
+        android:id="@+id/numText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:text="学号："
+        android:layout_marginTop="64dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+    <!-- editText of  userName -->
+
+    <EditText
+        android:id="@+id/numEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:layout_toRightOf="@+id/numText"
+        android:gravity="center_horizontal"
+        android:ems="10"
+        android:text="1701210921"
+        android:singleLine="true"
+        android:inputType="number"
+        android:maxLength="10"/>
+
+    <TextView
+        android:id="@+id/pwdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numText"
+        android:layout_marginLeft="35dp"
+        android:text="密码："
+        android:layout_marginTop="64dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+
+    <!-- editText of  password -->
+    <EditText
+        android:id="@+id/pwdEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/numText"
+        android:layout_below="@+id/numEditText"
+        android:layout_marginTop="45dp"
+        android:gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:text="1701210921">
+
+        <requestFocus />
+    </EditText>
+
+
+
+    <ImageView
+        android:id="@+id/loginBtn"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/pwdEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/submit_btn"
+        />
+
+</RelativeLayout>
